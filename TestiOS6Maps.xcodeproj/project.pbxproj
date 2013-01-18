@@ -18,6 +18,19 @@
 		4CB812C316A6435A008B08E0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB812C216A6435A008B08E0 /* Default-568h@2x.png */; };
 		4CB812C616A6435A008B08E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB812C516A6435A008B08E0 /* ViewController.m */; };
 		4CB812C916A6435A008B08E0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB812C716A6435A008B08E0 /* ViewController.xib */; };
+		4CB812D016A6479A008B08E0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CB812CF16A6479A008B08E0 /* MapKit.framework */; };
+		4CB812D616A648F7008B08E0 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB812D416A648F7008B08E0 /* MapViewController.m */; };
+		4CB812D716A648F7008B08E0 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB812D516A648F7008B08E0 /* MapViewController.xib */; };
+		4CB812DC16A6494A008B08E0 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB812DA16A6494A008B08E0 /* ListViewController.m */; };
+		4CB812DD16A6494A008B08E0 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB812DB16A6494A008B08E0 /* ListViewController.xib */; };
+		4CB812E516A68E02008B08E0 /* gradient-mapBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB812E316A68E02008B08E0 /* gradient-mapBar.png */; };
+		4CB812E616A68E02008B08E0 /* gradient-mapBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB812E416A68E02008B08E0 /* gradient-mapBar@2x.png */; };
+		4CB812E916A691CD008B08E0 /* currentLocationAnotation.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB812E716A691CD008B08E0 /* currentLocationAnotation.png */; };
+		4CB812EA16A691CD008B08E0 /* currentLocationAnotation@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB812E816A691CD008B08E0 /* currentLocationAnotation@2x.png */; };
+		4CB812F116A69DEA008B08E0 /* refreshIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB812EF16A69DEA008B08E0 /* refreshIcon.png */; };
+		4CB812F216A69DEA008B08E0 /* refreshIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CB812F016A69DEA008B08E0 /* refreshIcon@2x.png */; };
+		4CB88AD616A7B1F2007FE984 /* MapPointDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CB88AD416A7B1F2007FE984 /* MapPointDetailsViewController.m */; };
+		4CB88AD716A7B1F2007FE984 /* MapPointDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4CB88AD516A7B1F2007FE984 /* MapPointDetailsViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +50,22 @@
 		4CB812C416A6435A008B08E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		4CB812C516A6435A008B08E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4CB812C816A6435A008B08E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4CB812CF16A6479A008B08E0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4CB812D316A648F7008B08E0 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		4CB812D416A648F7008B08E0 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		4CB812D516A648F7008B08E0 /* MapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		4CB812D916A6494A008B08E0 /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		4CB812DA16A6494A008B08E0 /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		4CB812DB16A6494A008B08E0 /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
+		4CB812E316A68E02008B08E0 /* gradient-mapBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient-mapBar.png"; sourceTree = "<group>"; };
+		4CB812E416A68E02008B08E0 /* gradient-mapBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gradient-mapBar@2x.png"; sourceTree = "<group>"; };
+		4CB812E716A691CD008B08E0 /* currentLocationAnotation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = currentLocationAnotation.png; sourceTree = "<group>"; };
+		4CB812E816A691CD008B08E0 /* currentLocationAnotation@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "currentLocationAnotation@2x.png"; sourceTree = "<group>"; };
+		4CB812EF16A69DEA008B08E0 /* refreshIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refreshIcon.png; sourceTree = "<group>"; };
+		4CB812F016A69DEA008B08E0 /* refreshIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refreshIcon@2x.png"; sourceTree = "<group>"; };
+		4CB88AD316A7B1F2007FE984 /* MapPointDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPointDetailsViewController.h; sourceTree = "<group>"; };
+		4CB88AD416A7B1F2007FE984 /* MapPointDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPointDetailsViewController.m; sourceTree = "<group>"; };
+		4CB88AD516A7B1F2007FE984 /* MapPointDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapPointDetailsViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CB812D016A6479A008B08E0 /* MapKit.framework in Frameworks */,
 				4CB812AD16A64359008B08E0 /* UIKit.framework in Frameworks */,
 				4CB812AF16A64359008B08E0 /* Foundation.framework in Frameworks */,
 				4CB812B116A64359008B08E0 /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +86,8 @@
 		4CB8129D16A64359008B08E0 = {
 			isa = PBXGroup;
 			children = (
+				4CB812E216A68DA7008B08E0 /* Images */,
+				4CB812CF16A6479A008B08E0 /* MapKit.framework */,
 				4CB812B216A64359008B08E0 /* TestiOS6Maps */,
 				4CB812AB16A64359008B08E0 /* Frameworks */,
 				4CB812A916A64359008B08E0 /* Products */,
@@ -83,11 +115,12 @@
 		4CB812B216A64359008B08E0 /* TestiOS6Maps */ = {
 			isa = PBXGroup;
 			children = (
+				4CB88AD116A7B1D3007FE984 /* MapPointDetails View */,
 				4CB812BB16A64359008B08E0 /* AppDelegate.h */,
 				4CB812BC16A64359008B08E0 /* AppDelegate.m */,
-				4CB812C416A6435A008B08E0 /* ViewController.h */,
-				4CB812C516A6435A008B08E0 /* ViewController.m */,
-				4CB812C716A6435A008B08E0 /* ViewController.xib */,
+				4CB812D816A64939008B08E0 /* List View */,
+				4CB812D216A648E6008B08E0 /* Map View */,
+				4CB812D116A648D3008B08E0 /* TabBarController */,
 				4CB812B316A64359008B08E0 /* Supporting Files */,
 			);
 			path = TestiOS6Maps;
@@ -105,6 +138,59 @@
 				4CB812C216A6435A008B08E0 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4CB812D116A648D3008B08E0 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				4CB812C416A6435A008B08E0 /* ViewController.h */,
+				4CB812C516A6435A008B08E0 /* ViewController.m */,
+				4CB812C716A6435A008B08E0 /* ViewController.xib */,
+			);
+			name = TabBarController;
+			sourceTree = "<group>";
+		};
+		4CB812D216A648E6008B08E0 /* Map View */ = {
+			isa = PBXGroup;
+			children = (
+				4CB812D316A648F7008B08E0 /* MapViewController.h */,
+				4CB812D416A648F7008B08E0 /* MapViewController.m */,
+				4CB812D516A648F7008B08E0 /* MapViewController.xib */,
+			);
+			name = "Map View";
+			sourceTree = "<group>";
+		};
+		4CB812D816A64939008B08E0 /* List View */ = {
+			isa = PBXGroup;
+			children = (
+				4CB812D916A6494A008B08E0 /* ListViewController.h */,
+				4CB812DA16A6494A008B08E0 /* ListViewController.m */,
+				4CB812DB16A6494A008B08E0 /* ListViewController.xib */,
+			);
+			name = "List View";
+			sourceTree = "<group>";
+		};
+		4CB812E216A68DA7008B08E0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4CB812EF16A69DEA008B08E0 /* refreshIcon.png */,
+				4CB812F016A69DEA008B08E0 /* refreshIcon@2x.png */,
+				4CB812E716A691CD008B08E0 /* currentLocationAnotation.png */,
+				4CB812E816A691CD008B08E0 /* currentLocationAnotation@2x.png */,
+				4CB812E316A68E02008B08E0 /* gradient-mapBar.png */,
+				4CB812E416A68E02008B08E0 /* gradient-mapBar@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4CB88AD116A7B1D3007FE984 /* MapPointDetails View */ = {
+			isa = PBXGroup;
+			children = (
+				4CB88AD316A7B1F2007FE984 /* MapPointDetailsViewController.h */,
+				4CB88AD416A7B1F2007FE984 /* MapPointDetailsViewController.m */,
+				4CB88AD516A7B1F2007FE984 /* MapPointDetailsViewController.xib */,
+			);
+			name = "MapPointDetails View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +249,15 @@
 				4CB812C116A6435A008B08E0 /* Default@2x.png in Resources */,
 				4CB812C316A6435A008B08E0 /* Default-568h@2x.png in Resources */,
 				4CB812C916A6435A008B08E0 /* ViewController.xib in Resources */,
+				4CB812D716A648F7008B08E0 /* MapViewController.xib in Resources */,
+				4CB812DD16A6494A008B08E0 /* ListViewController.xib in Resources */,
+				4CB812E516A68E02008B08E0 /* gradient-mapBar.png in Resources */,
+				4CB812E616A68E02008B08E0 /* gradient-mapBar@2x.png in Resources */,
+				4CB812E916A691CD008B08E0 /* currentLocationAnotation.png in Resources */,
+				4CB812EA16A691CD008B08E0 /* currentLocationAnotation@2x.png in Resources */,
+				4CB812F116A69DEA008B08E0 /* refreshIcon.png in Resources */,
+				4CB812F216A69DEA008B08E0 /* refreshIcon@2x.png in Resources */,
+				4CB88AD716A7B1F2007FE984 /* MapPointDetailsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +271,9 @@
 				4CB812B916A64359008B08E0 /* main.m in Sources */,
 				4CB812BD16A64359008B08E0 /* AppDelegate.m in Sources */,
 				4CB812C616A6435A008B08E0 /* ViewController.m in Sources */,
+				4CB812D616A648F7008B08E0 /* MapViewController.m in Sources */,
+				4CB812DC16A6494A008B08E0 /* ListViewController.m in Sources */,
+				4CB88AD616A7B1F2007FE984 /* MapPointDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,10 +351,17 @@
 		4CB812CD16A6435A008B08E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestiOS6Maps/TestiOS6Maps-Prefix.pch";
 				INFOPLIST_FILE = "TestiOS6Maps/TestiOS6Maps-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-fobjc-arc",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "BlocksKit/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -264,10 +369,17 @@
 		4CB812CE16A6435A008B08E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestiOS6Maps/TestiOS6Maps-Prefix.pch";
 				INFOPLIST_FILE = "TestiOS6Maps/TestiOS6Maps-Info.plist";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-fobjc-arc",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "BlocksKit/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -291,6 +403,7 @@
 				4CB812CE16A6435A008B08E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

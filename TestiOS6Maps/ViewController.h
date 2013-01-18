@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ListViewController.h"
+#import "MapViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UITabBarController <UITabBarControllerDelegate,UIActionSheetDelegate>
+
+@property (strong, nonatomic) ListViewController *listViewController;
+@property (strong, nonatomic) MapViewController *mapViewController;
 
 @end
